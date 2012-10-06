@@ -1,9 +1,0 @@
-[submodule "node-build-script"]
-	path = node-build-script
-	url = https://github.com/h5bp/node-build-script.git
-[submodule "grunt-compass"]
-	path = grunt-compass
-	url = https://github.com/kahlil/grunt-compass.git
-[submodule "grunt-growl"]
-	path = grunt-growl
-	url = https://github.com/alextucker/grunt-growl.git

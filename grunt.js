@@ -84,6 +84,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-growl');
 
   // regist
-  grunt.registerTask('default', 'intro clean lint compass:dev growl:defaultTask');
+  grunt.registerTask('default', 'clean lint compass:dev growl:defaultTask');
   grunt.registerTask('prod', 'clean mkdirs lint concat min compass:prod usemin html img growl:prodTask');
 };
