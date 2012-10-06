@@ -25,9 +25,6 @@ module.exports = function(grunt) {
         dest: 'js/main-concat.js'
       }
     },
-    rev: {
-      js: ['js/*.js']
-    },
     min: {
       dist: {
         src: ['js/main-concat.js'],
@@ -81,11 +78,10 @@ module.exports = function(grunt) {
     }
   });
 
-  // plugin h5bp grunt
+  // load Tasks
   grunt.loadNpmTasks('node-build-script');
+  grunt.loadNpmTasks('grunt-compass');
   grunt.loadNpmTasks('grunt-growl');
-  // regist cumtom task
-  grunt.loadTasks('tasks');
 
   // regist
   grunt.registerTask('default', 'intro clean lint compass:dev growl:defaultTask');
