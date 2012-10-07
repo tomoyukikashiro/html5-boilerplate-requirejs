@@ -38,7 +38,7 @@ module.exports = function(grunt) {
             outputstyle: 'expanded',
             linecomments: true,
             forcecompile: true,
-            debugsass: true,
+            debugsass: false,
             images: 'img',
             relativeassets: true
         },
