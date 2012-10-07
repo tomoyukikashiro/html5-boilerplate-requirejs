@@ -12,6 +12,27 @@ I customized following…
 	* grunt-compass -> [kahlil/grunt-compass](https://github.com/kahlil/grunt-compass)
 	* grunt-growl -> [alextucker/grunt-growl](https://github.com/alextucker/grunt-growl)
 
+## Build
+### Development
+Execute default task.
+
+* command
+  ```shell
+  grunt
+  ```
+
+* watch
+  ```shell
+  grunt watch
+  ```
+### Production
+Execute prod task.
+
+* command
+  ```shell
+  grunt prod
+  ```
+
 ## License
 * HTML5 Boilerplate -> [MIT](https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.md)
 * Grunt -> [MIT](https://github.com/cowboy/grunt/blob/master/LICENSE-MIT)
