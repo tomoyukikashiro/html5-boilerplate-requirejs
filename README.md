@@ -30,6 +30,7 @@ Execute default task.
 Execute prod task.
 
 * command
+
   ```shell
   grunt prod
   ```
