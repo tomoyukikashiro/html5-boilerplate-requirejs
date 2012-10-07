@@ -25,6 +25,7 @@ Execute default task.
   ```shell
   grunt watch
   ```
+
 ### Production
 Execute prod task.
 
